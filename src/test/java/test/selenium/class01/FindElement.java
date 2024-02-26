@@ -15,8 +15,6 @@ public class FindElement {
         driver.manage().window().maximize();
 
         driver.get("https://www.saucedemo.com/");
-
-
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         List< WebElement> WebElements=driver.findElements(By.tagName("input"));
         System.out.println("Total links :" + WebElements.size());
