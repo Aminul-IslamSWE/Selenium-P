@@ -1,4 +1,4 @@
-package test.selenium.part2;
+package test.selenium.assignment2;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -18,7 +18,7 @@ public class SelectorTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
         //Relative xpath
-        driver.findElement(By.xpath("//input[@type='text]")).sendKeys("Razukhan");
+        driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Razukhan");
         Thread.sleep(2000);
         //Name
         driver.findElement(By.name("password")).sendKeys("123456");

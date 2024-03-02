@@ -1,4 +1,4 @@
-package test.selenium.part2;
+package test.selenium.assignment2;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
