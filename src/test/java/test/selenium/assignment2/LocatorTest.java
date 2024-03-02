@@ -19,6 +19,7 @@ public class LocatorTest {
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         Thread.sleep(3000);
 
+
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
         System.out.println(driver.getPageSource());
